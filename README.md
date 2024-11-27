@@ -1,14 +1,14 @@
 <h1>Web Document Retrieval and Question-Answering Script</h1>
-Overview
-This Python script implements a Retrieval-Augmented Generation (RAG) system for extracting and querying information from web documents using Langchain, OpenAI Embeddings, FAISS, and Anthropic's Claude AI.
-Features
+<h1>Overview</h1>
+<h3>This Python script implements a Retrieval-Augmented Generation (RAG) system for extracting and querying information from web documents using Langchain, OpenAI Embeddings, FAISS, and Anthropic's Claude AI.
+Features</h3>
 
 Flexible web-based document loading from any URL
 Vector embedding of web content
 Local vector database storage using FAISS
 AI-powered question-answering capabilities
 
-Prerequisites
+<h1>Prerequisites</h1>
 
 Python 3.8+
 API keys for:
@@ -18,7 +18,7 @@ OpenAI (for embeddings)
 
 
 
-Dependencies
+<h1>Dependencies</h1>
 Install the required packages using pip:
 bashCopypip install langchain-community langchain-openai langchain-anthropic faiss-cpu beautifulsoup4 anthropic
 Environment Setup
@@ -29,7 +29,7 @@ bashCopyexport ANTHROPIC_API_KEY='your_anthropic_api_key'
 export OPENAI_API_KEY='your_openai_api_key'
 Usage
 
-Clone the repository
+<h1>Clone the repository</h1>
 Install dependencies
 Modify the script to use your desired URL
 Run the script:
