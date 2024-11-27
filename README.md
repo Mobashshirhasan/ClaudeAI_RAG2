@@ -1,4 +1,4 @@
-Web Document Retrieval and Question-Answering Script
+<h1>Web Document Retrieval and Question-Answering Script</h1>
 Overview
 This Python script implements a Retrieval-Augmented Generation (RAG) system for extracting and querying information from web documents using Langchain, OpenAI Embeddings, FAISS, and Anthropic's Claude AI.
 Features
