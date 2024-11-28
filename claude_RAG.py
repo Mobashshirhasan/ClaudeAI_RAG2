@@ -27,7 +27,7 @@ faiss_db = FAISS.from_documents(documents=data, embedding=embedding)
 # Persist the FAISS index to disk
 faiss_db.save_local("./NEWfaiss_db")
 
- # Load the FAISS index from the disk
+# Load the FAISS index from the disk
 faiss_db = FAISS.load_local(
     folder_path="./NEWfaiss_db",
     embeddings=embedding,
