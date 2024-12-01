@@ -79,4 +79,4 @@ Copy
 - Ensure all dependencies are installed
 
 ## Support
-For issues or questions, please open a GitHub issue in t
+For issues or questions, please open a GitHub issue in terminal
