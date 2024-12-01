@@ -57,5 +57,5 @@ qa_chain = RetrievalQA.from_chain_type(
 question = "What is onyx"
 result = qa_chain({"query": question})
 
-# Print the result
+ # Print the result
 print(result)
