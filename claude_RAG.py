@@ -31,7 +31,7 @@ faiss_db.save_local("./NEWfaiss_db")
 faiss_db = FAISS.load_local(
     folder_path="./NEWfaiss_db",
     embeddings=embedding,
-    allow_dangerous_deserialization=True     # Added this parameter
+    allow_dangerous_deserialization=True    # Added this parameter
 )
 
 # Set up the LLM for Anthropic Claude
