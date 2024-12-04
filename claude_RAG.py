@@ -21,7 +21,7 @@ data = loader.load()
  # Use OpenAI Embeddings for the document processing
 embedding = OpenAIEmbeddings(model="text-embedding-3-large")
 
-# Create a FAISS index and store the embeddings
+ # Create a FAISS index and store the embeddings
 faiss_db = FAISS.from_documents(documents=data, embedding=embedding)
 
 # Persist the FAISS index to disk
