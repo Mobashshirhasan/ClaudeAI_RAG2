@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup
 api_key = os.environ.get("ANTHROPIC_API_KEY")   
 client = anthropic.Anthropic(api_key=api_key)
 
-# Load the document from the web
+#  Load the document from the web
 loader = WebBaseLoader("https://onyxproerp.com/en/onyx-pro-erp/")
 data = loader.load()
 
