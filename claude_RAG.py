@@ -18,7 +18,7 @@ client = anthropic.Anthropic(api_key=api_key)
 loader = WebBaseLoader("https://onyxproerp.com/en/onyx-pro-erp/")
 data = loader.load()
 
- # Use OpenAI Embeddings for the document processing
+# Use OpenAI Embeddings for the document processing
 embedding = OpenAIEmbeddings(model="text-embedding-3-large")
 
 # Create a FAISS index and store the embeddings
