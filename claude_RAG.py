@@ -53,7 +53,7 @@ qa_chain = RetrievalQA.from_chain_type(
     chain_type_kwargs={"prompt": prompt},
 )
 
-# Ask a question
+#  Ask a question
 question = "What is onyx"
 result = qa_chain({"query": question})
 
