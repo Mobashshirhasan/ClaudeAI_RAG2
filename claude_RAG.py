@@ -43,7 +43,7 @@ llm = ChatAnthropic(
     max_retries=2,
 )
 
-#  Pull the prompt from the hub
+# Pull the prompt from the hub
 prompt = hub.pull("rlm/rag-prompt")
 
 # Set up the RetrievalQA chain
