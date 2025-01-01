@@ -8,7 +8,6 @@ from langchain.chains import RetrievalQA
 from langchain import hub
 from langchain_anthropic import ChatAnthropic
 import anthropic
-
 from bs4 import BeautifulSoup
 
 # Set your API keys
